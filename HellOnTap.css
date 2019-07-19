@@ -1,0 +1,780 @@
+
+body{
+    background-color:black;
+    font-family: 'VT323', monospace;
+}
+
+
+
+#playerDiag{
+    position:absolute;
+    color:white;
+    font-size:140%;
+    top:35%;
+    left:72%;
+   
+    
+}
+
+#monsterDiag{
+    position:absolute;
+    color:white;
+    font-size:140%;
+    top:35%;
+    left:72%;
+}
+
+
+#tipMode1{
+    position:absolute;
+    left:75%;
+    top:40%;
+   
+}
+
+.tipBonus{
+    position:absolute;
+    top:44%;
+    
+    height:15%;
+    
+}
+
+#tipBonus1{
+  left:70.5%;  
+}
+
+.coinTipGain{
+    position:absolute;
+    left:84%;
+    top:46%;
+    height:8%;
+}
+
+#coinTipGain1{
+    
+}
+#coinTipGain2{
+    left:86%;
+}
+#coinTipGain3{
+    left:88%;
+}
+#coinTipGain4{
+    left:90%;
+}
+#coinTipGain5{
+    left:92%;
+}
+
+.conversations{
+    position:absolute;
+    color:white;
+    font-size:120%;
+    left:72.5%;
+}
+
+#conversation1{
+   top:53%; 
+}
+#conversation2{
+    top:61%;
+}
+#conversation3{
+    top:69%;
+}
+#conversation4{
+    top:77%;
+}
+#conversation5{
+   top:85%; 
+    color:red;
+}
+
+
+#barForeground{
+    position:absolute;
+    border:5px solid white;
+   left:30%;
+    height:79%;
+}
+
+#barBackground{
+    position:absolute;
+    left:30%;
+    height:80.3%;
+}
+
+.backgrounds{
+    top:10%;
+    height:80%;
+}
+
+#barBackRoom{
+    position:absolute;
+    border:5px solid white;
+    left:30%;
+    height:80.3%;
+}
+   
+#barCellRoom{
+    position:absolute;
+    height:79d%;
+    left:30%;
+    top:12%;
+    
+}
+
+.lights{
+    position:absolute;
+    height:4%;
+}
+
+#light1{
+    left:40.5%;
+    top:23.8%;
+}
+#light2{
+    left:57.9%;
+    top:23.8%;
+}
+
+#lightsOffCover{
+    position:absolute;
+    width:50%;
+    background-color:black;
+    opacity:.9;
+    left:30.2%;
+    top:10.5%;
+    height:79%;
+    width:40%;
+}
+
+#barCellRoomSleepShade{
+    position:absolute;
+    height:67.5%;
+    width:30%;
+    left:35.2%;
+    top:22.3%;
+    background-color:#2158dd;
+    opacity:.5;
+}
+
+.wakeUpMeters{
+    position:absolute;
+    height:1.5%;
+    width:3%;
+    left:50.5%;
+    top:35%;
+}
+
+
+
+#wakeUpArrows{
+    position:absolute;
+    left:46%;
+    top:27%;
+}
+
+
+
+.bed{
+    position:absolute;
+}
+
+#bedBOTTOM{
+    height:17%;
+    left:43.9%;
+    top:36.5%;
+}
+
+#bedTOP{
+    height:17%;
+    left:43.9%;
+    top:36.5%;
+}
+
+#zsForSleep{
+    position:absolute;
+    height:20%;
+    left:46.5%;
+    top:27%;
+}
+
+#cellDeviceBox{
+    position:absolute;
+    left:38.9%;
+    top:18.5%;
+    height:13%;
+}
+
+#killBot{
+    position:absolute;
+    height:8%;
+    left:41.4%;
+    top:19%;
+}
+
+#redRatVatz{
+    position:absolute;
+    left:57.5%;
+    top:60%;
+    height:10%;
+}
+
+.cellGuards{
+  position:absolute;  
+}
+
+#cellGuard1{
+   left:39%;
+    top:70%;
+}
+
+#cellGuard2{
+    left:53%;
+    top:70%;
+}
+
+#cellDresser{
+    position:absolute;
+    left:56.3%;
+    top:20.5%;
+    height:11%;
+}
+#cellLamp{
+    position:absolute;
+    left:56.6%;
+    top:11%;
+}
+
+#player1{
+    position:absolute;
+    height:13%;
+    left:47.7%;
+    top:38%;   
+}
+
+.portals{
+    position:absolute;
+}
+
+#portalInDevilZone{
+    left:47.4%;
+    top:56%;
+}
+
+#portalInCell{
+    left:47.4%;
+    top:58%;
+}
+
+#jukebox{
+    position:absolute;
+    height:30%;
+    top:65%;
+    left:30%;
+}
+
+#bodyGuard{
+    position:absolute;
+    height:13%;
+    top:70%;
+    left:60%;
+}
+
+#hellOnTapLogo{
+    position:absolute;
+    left:33%;
+    background-position:center;
+    top:-5%;
+    height:20%;
+}
+
+.slime{
+    position:absolute;
+    height:10%;
+    top:75%;
+    left:81%;
+}
+.zombie{
+    position:absolute;
+    height:20%;
+    top:70%;
+    left:81%;
+}
+
+.eyeMonster{
+    position:absolute;
+    height:15%;
+    top:73%;
+    left:83%;
+}
+
+.demonHead{
+    position:absolute;
+    height:20%;
+    top:70%;
+    left:81%;
+}
+
+#grangor{
+    position:absolute;
+    left:81%;
+    top:70%;
+}
+
+.cursedghosts{
+    position:absolute;
+    height:20%;
+    top:73%;
+    left:83%;
+    opacity:.60;
+}
+
+#cursedghost1{
+    
+}
+
+#cursedghost2{
+    top:73%;
+    left:83%;
+    -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+}
+
+#salaryDevilCat{
+    position:absolute;
+    height:20%;
+    left:81%;
+    top:70%;
+}
+
+
+#devilBoss{
+    position:absolute;
+    left:30%;
+}
+
+#mookTheRat{
+    position:absolute;
+    left:60%;
+    top:65%;
+    height:20%;
+}
+
+
+#dreamReaper{
+    position:absolute;
+    height:25%;
+    left:81%;
+    top:67%;
+}
+
+
+#playerXPosition{
+    color:white;
+    position:absolute;
+    top:10%;
+}
+
+#playerYPosition{
+    color:white;
+    position:absolute;
+    top:7%;
+}
+
+#flame1{
+    position:absolute;
+    height:30%;
+    left:30%;
+    top:30%;
+}
+
+#flame2{
+    position:absolute;
+    height:18%;
+    top:38%;
+    left:60.7%;
+}
+
+#flame3{
+    position:absolute;
+    left:60.7%;
+    height:18%;
+    top:51%;
+}
+
+#hideMonstersStorage{
+    position:absolute;
+    height:53%;
+    width:25%;
+    top:37%;
+    left:71%;
+   background-color:black;
+    
+   
+}
+
+#playerProfilePicture{
+    position:absolute;
+    top:10%;
+    left:14.2%;
+    height:31%;
+    
+}
+
+#expCounter{
+    position:absolute;
+    color:white;
+    left:20.2%;
+    top:28.5%;
+    font-size:130%;
+}
+
+#expToLevel{
+    position:absolute;
+    color:yellow;
+    left:22%;
+    top:28.5%;
+    font-size:130%;
+    
+}
+
+
+#monsterProfilePicture{
+    position:absolute;
+    top:64%;
+    left:70.6%;
+    height:31%;
+    
+}
+
+#repStatusSlimeIcon{
+    position:absolute;
+    height:4%;
+    left:72.2%;
+    top:13%;
+}
+
+#demonCoinIcon{
+    position:absolute;
+    height:3%;
+    left:72.5%;
+    top:9.5%;
+}
+
+#demonBucks{
+    position:absolute;
+    color:lawngreen;
+    font-size:200%;
+    top:6%;
+    left:74.5%;
+}
+
+#playerLevelStat{
+    position:absolute;
+    color:yellow;
+    font-size:150%;
+    top:12%;
+    left:18.5%;
+}
+
+#repStatus{
+    position:absolute;
+    color:deeppink;
+    font-size:200%;
+    top:10%;
+    left:74.5%;
+}
+
+
+
+#timeClock{
+    position:absolute;
+    color:turquoise;
+    font-size:250%;
+    left:59.5%;
+}
+
+#dayCounter{
+   position:absolute;
+    color:turquoise;
+    font-size:250%;
+    left:30%; 
+}
+
+#rotaryPhone{
+    position:absolute;
+    left:36.5%;
+    top:23%;
+}
+
+.dueDatePay{
+    position:absolute;
+    color:red;
+    left:21.8%;
+    font-size:200%;
+    
+}
+
+#barRentDueDay{
+    top:51.5%;
+}
+
+#barUtilityDueDay{
+    top:57.5%;
+}
+
+#barBouncerDueDay{
+    top:63.5%;
+}
+
+.costOfUtilities{
+    position:absolute;
+    color:turquoise;
+    left:23.8%;
+    font-size:200%;
+    top:48.5%;
+}
+#costOfUtilityBill{
+    top:54.5%;;
+}
+#costOfBouncer{
+    top:60.5%;
+}
+#costOfAdvertising{
+    top:66.5%;
+}
+
+
+.coinandrepUpandDownEffect{
+    position:absolute;
+    left:70.3%;
+    height:5%;
+}
+
+#coinUp{
+  top:7.5%;  
+  
+    
+}
+
+#repUp{
+   top:12%; 
+}
+
+#coinDown{
+  top:7.5%;  
+}
+
+#repDown{
+   top:12%; 
+}
+
+.playerStatSheet{
+    position:absolute;
+    color:white;
+    top:32%;
+    font-size:130%;
+}
+#playerStamina{
+    left:16%;
+    color:lawngreen
+}
+
+#staminaBar{
+    position:absolute;
+    height:1.5%;
+    width:8%;
+    background-color:greenyellow;
+    border:1px solid white;
+    top:34.5%;
+    left:19.8%;
+}
+#playerSoulCount{
+    left:16%;
+    top:35%;
+    color:red;
+}
+
+.soulLives{
+    position:absolute;
+   height:8%; 
+    top:34.4%;
+    left:20%;
+}
+
+#soulLife2{
+    left:22%;
+}
+#soulLife3{
+    left:24%;
+}
+#soulLife4{
+    left:26%;
+}
+
+#playerCharisma{
+    left:16%;
+    top:38%;
+    color:deeppink
+}
+
+.charismaHearts{
+    position:absolute;
+    height:3%;
+    top:39.8%;
+    left:21.3%;
+}
+#charismaHeart2{
+    left:23.3%;
+}
+#charismaHeart3{
+    left:25.3%;
+}
+#charismaHeart4{
+    left:27.3%;
+}
+
+#playerPourSkill{
+    left:16%;
+    top:41%;
+    color:orange;
+}
+
+.pourSkills{
+    position:absolute;
+    height:3.5%;
+}
+
+#pourSkill1{
+    top:43%;
+    left:21.1%;
+}
+
+#pourSkill2{
+    top:43%;
+    left:23.1%;
+}
+
+#pourSkill3{
+    top:43%;
+    left:25.1%;
+}
+
+#pourSkill4{
+    top:43%;
+    left:27.1%;
+}
+
+#playerEmployeePosition{
+    left:16%;
+    top:44%;
+    
+}
+
+.beerTapMenu{
+    position:absolute;
+    height:50%;
+    left:8%;
+    top:40%;
+    background-size:auto;
+    background-repeat:no;
+    
+}
+
+
+#menuRedBall{
+    position:absolute;
+    left:13.6%;
+    top:52.4%;
+    height:2%;
+}
+
+#menuRedBall2{
+    position:absolute;
+    left:71%;
+    top:55%;
+    height:2%;
+}
+
+#beerAxisStudy{
+    position:absolute;
+    color:white;
+}
+
+.allBeers{
+    position:absolute;
+     left:80.8%;
+    top:70.2%;
+    
+}
+
+.beersOnCounter{
+position:absolute;
+top:71%;
+left:80%;    
+}
+
+.drinkMeters{
+    position:absolute;
+    top:65%;
+    left:70%;
+}
+
+
+.blackBarMeters{
+    position:absolute;
+    top:68%;
+    left:75%;
+    height:2.8%;
+    width:5.2%;
+    background-color:black;
+}
+
+
+.colorDrinkBarMeters{
+    position:absolute;
+    top:68%;
+    left:75%;
+    height:2.8%;
+    width:5.2%;
+    background-color:red;
+}
+
+
+
+
+#radioController{
+    position:absolute;
+    height:5%;
+    left:63.7%;
+    top:33%;
+}
+
+#billingStatement{
+    position:absolute;
+    left:60.7%;
+    top:33%;
+}
+
+.randomizerStatus{
+    position:absolute;
+    height:8%;
+    top:70%;
+    left:75%;
+  
+}
+
+#levelUpDing{
+    position:absolute;
+    color:yellow;
+    font-size:800%;
+    left:38%;
+    top:10%;
+}
